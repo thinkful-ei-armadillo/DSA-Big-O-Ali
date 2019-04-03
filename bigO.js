@@ -454,7 +454,7 @@ const anagrams = function(word) {
   return anagramList;
 };
 
-// Answer: O(n ^ 2), the function takes n steps for each prefix and then recursive call n times for the remaining characters. Hence, O(n * n) = O (n ^ 2)
+// Answer: O(n!), The number of inputs increases at a factorial rate as the length of the string increases. Ex. string with length 4 gave 24 results. 4! = 4 * 3 * 2 * 1 = 24.
 
 // 13.11
 // Organization Chart
