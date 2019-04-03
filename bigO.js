@@ -104,7 +104,7 @@ function efficientSearch(array, item) {
   return -1;
 }
 
-// Answer: O(n / 2) or O(log(n))
+// Answer:  O(log(n)) because its dividing the scope of search in half for an already sorted array.
 
 // 9. Random element
 
@@ -114,7 +114,7 @@ function findRandomElement(arr) {
 
 // Answer: O(1), because finding a random numbered index of the array and multiplying it by the arr.length are both constant time operations, hence the whole algorithm is constant time. It takes the same amount of time regardless of the size of the input array.
 
-// 10. What am I?
+// 10. What am I? This function determines if a number is prime.
 
 function isWhat(n) {
   if (n < 2 || n % 1 != 0) {
@@ -126,7 +126,7 @@ function isWhat(n) {
   return true;
 }
 
-// Answer: O(n)
+// Answer: O(n) because it must iterate through all n less than the input n.
 
 // 11. Tower of Hanoi
 
